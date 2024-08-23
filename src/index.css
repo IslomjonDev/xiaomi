@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@fontsource/roboto'; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    padding: 0 30px ;
+    margin: 0 auto;
+}
+.swiper-button-next{
+    font-size: 4px !important;
+}
+.banner__container{
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+.swiper-button-prev, 
+.swiper-button-next{
+    background: #0003;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 26px;
+    color: #fff;
+}
+
+.swiper-pagination-bullet{
+    width: 100px;
+    border-radius: 8px;
+    height: 3px;
+}
+
+.swiper-pagination-bullet-active{
+    background: #000;
+}
